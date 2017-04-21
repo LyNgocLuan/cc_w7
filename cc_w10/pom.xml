@@ -19,6 +19,7 @@
     <user>user1</user>
     <password>1234</password>
     <database>sqldemo</database>
+    <sqlURL>jdbc:mysql://google/sqldemo?cloudSqlInstance=cc-week-five:us-central1:root&amp;socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;user=root&amp;password=1234&amp;useSSL=false</sqlURL>
     
   </properties>
   

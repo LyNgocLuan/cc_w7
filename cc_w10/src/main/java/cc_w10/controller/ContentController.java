@@ -60,4 +60,5 @@ public class ContentController {
 		request.setAttribute("mode", "MODE_CONTENTS");
 		return "index";
 	}
+	
 }
