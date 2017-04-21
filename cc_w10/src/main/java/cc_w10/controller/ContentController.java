@@ -48,7 +48,7 @@ public class ContentController {
 	
 	@GetMapping("/update-content")
 	public String updateContent(@RequestParam int id, HttpServletRequest request){
-		request.setAttribute("contents", contentService.findContent(id));
+		request.setAttribute("content", contentService.findContent(id));
 		request.setAttribute("mode", "MODE_UPDATE");
 		return "index";
 	}

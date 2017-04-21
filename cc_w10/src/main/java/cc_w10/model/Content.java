@@ -12,15 +12,16 @@ public class Content implements Serializable{
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
-	private String tittle;
-	private String content;
+	
+	private String tittle;	
+	private String cont;
 	
 	public Content(){}
 	
-	public Content(String tittle, String content) {
+	public Content(String tittle, String cont) {
 		super();
 		this.tittle = tittle;
-		this.content = content;
+		this.cont = cont;
 	}
 	public int getId() {
 		return id;
@@ -34,15 +35,15 @@ public class Content implements Serializable{
 	public void setTittle(String tittle) {
 		this.tittle = tittle;
 	}
-	public String getContent() {
-		return content;
+	public String getCont() {
+		return cont;
 	}
-	public void setContent(String content) {
-		this.content = content;
+	public void setCont(String cont) {
+		this.cont = cont;
 	}
 	@Override
 	public String toString() {
-		return "Content [id=" + id + ", tittle=" + tittle + ", content=" + content + "]";
+		return "Content [id=" + id + ", tittle=" + tittle + ", cont=" + cont + "]";
 	}	
 	
 	

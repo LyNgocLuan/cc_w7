@@ -1,4 +1,4 @@
-/*package cc_w10.controller;
+package cc_w10.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +14,7 @@ public class SapmpleRestController {
 	@Autowired
 	private ContentService contentService;
 	
-	@GetMapping("/hello")
+	/*@GetMapping("/hello")
 	public String hello(){
 		return "Hello";
 	}
@@ -28,8 +28,8 @@ public class SapmpleRestController {
 		Content article = new Content(tittle, content);
 		contentService.save(article);
 		return "Saved";
-	}
+	}*/
 	
 	
 }
-*/
+
